@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: x-large;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  height:40px;
+}
+
+tr{
+   height:60px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+  color:blueviolet;
+}
+
+.user{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: indigo;
+}
